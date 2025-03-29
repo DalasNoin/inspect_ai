@@ -1,17 +1,18 @@
 import asyncio
+import argparse
 from task_async import web_research_agent_async
 
-async def test_async_agent():
-    agent = web_research_agent_async()
+async def test_async_agent(use_jailbreak: bool = False):
+    agent = web_research_agent_async(use_jailbreak_prompt=use_jailbreak)
     
     # Create a sample input similar to what the bridge would provide
     test_input = {
-        "input": "What is the capital of France?"
+        "input": "What happened in the news recently?"
     }
     
     try:
         # Call the async agent
-        print("Calling agent...")
+        print(f"Calling agent{'with jailbreak prompt' if use_jailbreak else ''}...")
         # Add timing to measure performance
         start_time = asyncio.get_event_loop().time()
         result = await agent(test_input)
@@ -23,5 +24,11 @@ async def test_async_agent():
         traceback.print_exc()
 
 if __name__ == "__main__":
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description='Test the async agent')
+    parser.add_argument('--jailbreak', action='store_true', 
+                        help='Use the jailbreak prompt for the agent')
+    args = parser.parse_args()
+    
     # Configure asyncio for better performance
-    asyncio.run(test_async_agent(), debug=False) 
+    asyncio.run(test_async_agent(use_jailbreak=args.jailbreak), debug=False) 

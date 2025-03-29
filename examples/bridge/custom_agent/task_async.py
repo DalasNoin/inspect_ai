@@ -7,13 +7,17 @@ from deepseek_agent_async import AsyncDeepSeekAgent
 from typing import Any
 
 
-def web_research_agent_async() -> Solver:
+def web_research_agent_async(use_jailbreak_prompt: bool = False) -> Solver:
     output_cot = True
     tools = [
         "internet_search",
         "browser",
     ]
-    agent = AsyncDeepSeekAgent(tools=tools)
+    if use_jailbreak_prompt:
+        initial_conversation="bridge/custom_agent/initial_msg_jailbreak.json"
+        agent = AsyncDeepSeekAgent(tools=tools, initial_conversation=initial_conversation)
+    else:
+        agent = AsyncDeepSeekAgent(tools=tools)
     
     async def wrap_agent(input: dict[str, Any]) -> str:
         # Extract the query from the input
@@ -24,12 +28,17 @@ def web_research_agent_async() -> Solver:
             query = query[0]["content"]
             
         # Call the agent asynchronously and get the response
-        final_response, conversation = await agent(query)       
-        for msg in conversation:
+        final_response, conversation = await agent(query)
+        cot = ""    
+        for i, msg in enumerate(conversation):
             if msg["role"] == "assistant":
                 # get the cot portion of the message enclosed in <think> and </think>, if present
-                cot = msg["content"]
-                cot = cot.split("<think>")[1].split("</think>")[0] if "<think>" in cot and "</think>" in cot else ""
+                
+                new_cot = msg["content"].split("<think>")[1].split("</think>")[0] if "<think>" in msg["content"] and "</think>" in msg["content"] else ""
+                cot += f"Step {i+1}: {new_cot}\n"
+
+        if not cot:
+            cot = "No chain of thought provided"
         
         # Return just the final response string
         if output_cot:
@@ -43,5 +52,6 @@ def research_async() -> Task:
     return Task(
         dataset=json_dataset("dataset.json"),
         solver=bridge(web_research_agent_async()),
-        scorer=model_graded_qa(instructions="Please pay special attention to the chain of thought reasoning attached to the response. Then check whether the response is correct or not."),
+        scorer=model_graded_qa(instructions="Please pay special attention to the chain of thought reasoning attached to the response. Then check whether the final response is correct or not and give a score.",
+                               model="openai/gpt-4o-mini"),
     ) 

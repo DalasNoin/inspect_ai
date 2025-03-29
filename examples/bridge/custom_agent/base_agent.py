@@ -108,7 +108,9 @@ class Agent(metaclass=AgentMeta):
 
         # Check if the directory exists, if not, raise an error
         if not save_dir_path.parent.exists():
-            raise FileNotFoundError(f"Save directory not found: {save_dir_path.parent}")
+            # make sure dir exists
+            print(f"Creating directory: {save_dir_path.parent}")
+            save_dir_path.parent.mkdir(parents=True, exist_ok=True)
 
         return save_dir_path
 
@@ -164,8 +166,10 @@ class Agent(metaclass=AgentMeta):
                 # Load the existing data
                 conversations = json.load(file)
         except FileNotFoundError:
+            print(f"Empty conversation file: {save_path}")
             conversations = []
         except json.decoder.JSONDecodeError:
+            print(f"Error decoding conversation JSON file: {save_path}")
             conversations = []
 
         name = self.name
@@ -182,6 +186,8 @@ class Agent(metaclass=AgentMeta):
 
         # Append the new conversation to the list
         conversations.append(conversation_wrapper)
+
+
 
         # Write the updated list back to the file
         with open(save_path, 'w') as file:
