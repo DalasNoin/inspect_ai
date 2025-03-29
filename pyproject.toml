@@ -139,6 +139,10 @@ dev = [
     "ruff==0.9.6", # match version specified in .pre-commit-config.yaml
     "textual-dev>=0.86.2",
     "trio",
+    "trafilatura",
+    "lxml_html_clean",
+    "python-dotenv",
+    "google-api-python-client",
     "types-Markdown",
     "types-PyYAML",
     "types-beautifulsoup4",
