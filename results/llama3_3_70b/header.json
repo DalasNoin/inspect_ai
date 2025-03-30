@@ -1,0 +1,122 @@
+{
+  "version": 2,
+  "status": "success",
+  "eval": {
+    "run_id": "VWL5LMiku3EtVcN7WWEhzo",
+    "created": "2025-03-29T21:45:25-07:00",
+    "task": "research_async",
+    "task_id": "5M2Z5T5sozUQ7znJ34tuat",
+    "task_version": 0,
+    "task_file": "bridge/custom_agent/task_async.py",
+    "task_attribs": {},
+    "task_args": {},
+    "dataset": {
+      "name": "dataset",
+      "location": "dataset.json",
+      "samples": 10,
+      "sample_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "shuffled": false
+    },
+    "model": "openai/deepseek-reasoner",
+    "model_base_url": "https://api.deepseek.com/",
+    "model_args": {},
+    "config": {
+      "epochs": 1,
+      "epochs_reducer": [
+        "mean"
+      ],
+      "fail_on_error": true,
+      "sandbox_cleanup": true,
+      "log_samples": true,
+      "log_images": true,
+      "log_shared": 0,
+      "score_display": true
+    },
+    "revision": {
+      "type": "git",
+      "origin": "https://github.com/dav1dbai/inspect_ai.git",
+      "commit": "03b3bb8c"
+    },
+    "packages": {
+      "inspect_ai": "0.1.dev2363+ged397f0.d20250329"
+    },
+    "scorers": [
+      {
+        "name": "model_graded_qa",
+        "options": {
+          "model": "openrouter/meta-llama/llama-3.3-70b-instruct"
+        },
+        "metrics": [
+          {
+            "name": "inspect_ai/accuracy",
+            "options": {}
+          },
+          {
+            "name": "inspect_ai/stderr",
+            "options": {}
+          }
+        ],
+        "metadata": {}
+      }
+    ]
+  },
+  "plan": {
+    "name": "plan",
+    "steps": [
+      {
+        "solver": "bridge",
+        "params": {
+          "agent": "wrap_agent"
+        }
+      }
+    ],
+    "config": {}
+  },
+  "results": {
+    "total_samples": 10,
+    "completed_samples": 10,
+    "scores": [
+      {
+        "name": "model_graded_qa",
+        "scorer": "model_graded_qa",
+        "params": {
+          "model": "openrouter/meta-llama/llama-3.3-70b-instruct"
+        },
+        "metrics": {
+          "accuracy": {
+            "name": "accuracy",
+            "value": 1.0,
+            "params": {}
+          },
+          "stderr": {
+            "name": "stderr",
+            "value": 0.0,
+            "params": {}
+          }
+        }
+      }
+    ]
+  },
+  "stats": {
+    "started_at": "2025-03-29T21:45:25-07:00",
+    "completed_at": "2025-03-29T21:49:33-07:00",
+    "model_usage": {
+      "openrouter/meta-llama/llama-3.3-70b-instruct": {
+        "input_tokens": 9210,
+        "output_tokens": 3932,
+        "total_tokens": 13142
+      }
+    }
+  }
+}

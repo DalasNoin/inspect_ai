@@ -1,0 +1,124 @@
+{
+  "version": 2,
+  "status": "success",
+  "eval": {
+    "run_id": "edNQHvRXypR6wmKGEvNcLd",
+    "created": "2025-03-29T22:42:12-07:00",
+    "task": "research_async",
+    "task_id": "mWuQWX5sxhZMCXTGBhUoHR",
+    "task_version": 0,
+    "task_file": "bridge/custom_agent/task_async.py",
+    "task_attribs": {},
+    "task_args": {},
+    "dataset": {
+      "name": "dataset",
+      "location": "dataset.json",
+      "samples": 10,
+      "sample_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "shuffled": false
+    },
+    "model": "openai/deepseek-reasoner",
+    "model_base_url": "https://api.deepseek.com/",
+    "model_args": {},
+    "config": {
+      "epochs": 1,
+      "epochs_reducer": [
+        "mean"
+      ],
+      "fail_on_error": true,
+      "sandbox_cleanup": true,
+      "log_samples": true,
+      "log_images": true,
+      "log_shared": 0,
+      "score_display": true
+    },
+    "revision": {
+      "type": "git",
+      "origin": "https://github.com/dav1dbai/inspect_ai.git",
+      "commit": "03b3bb8c"
+    },
+    "packages": {
+      "inspect_ai": "0.1.dev2363+ged397f0.d20250329"
+    },
+    "scorers": [
+      {
+        "name": "model_graded_qa",
+        "options": {
+          "model": "openai/gpt-4o-mini"
+        },
+        "metrics": [
+          {
+            "name": "inspect_ai/accuracy",
+            "options": {}
+          },
+          {
+            "name": "inspect_ai/stderr",
+            "options": {}
+          }
+        ],
+        "metadata": {}
+      }
+    ]
+  },
+  "plan": {
+    "name": "plan",
+    "steps": [
+      {
+        "solver": "bridge",
+        "params": {
+          "agent": "wrap_agent"
+        }
+      }
+    ],
+    "config": {}
+  },
+  "results": {
+    "total_samples": 10,
+    "completed_samples": 10,
+    "scores": [
+      {
+        "name": "model_graded_qa",
+        "scorer": "model_graded_qa",
+        "params": {
+          "model": "openai/gpt-4o-mini"
+        },
+        "metrics": {
+          "accuracy": {
+            "name": "accuracy",
+            "value": 0.4,
+            "params": {}
+          },
+          "stderr": {
+            "name": "stderr",
+            "value": 0.16329931618554522,
+            "params": {}
+          }
+        }
+      }
+    ]
+  },
+  "stats": {
+    "started_at": "2025-03-29T22:42:12-07:00",
+    "completed_at": "2025-03-29T22:55:09-07:00",
+    "model_usage": {
+      "openai/gpt-4o-mini": {
+        "input_tokens": 9277,
+        "output_tokens": 3607,
+        "total_tokens": 12884,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      }
+    }
+  }
+}

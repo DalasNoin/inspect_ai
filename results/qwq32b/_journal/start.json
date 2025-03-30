@@ -1,0 +1,85 @@
+{
+  "version": 2,
+  "eval": {
+    "run_id": "UCEXoedrbnjXq4iP3EnZag",
+    "created": "2025-03-29T21:59:48-07:00",
+    "task": "research_async",
+    "task_id": "TPXJArGazz9rLz4rjV7dNi",
+    "task_version": 0,
+    "task_file": "bridge/custom_agent/task_async.py",
+    "task_attribs": {},
+    "task_args": {},
+    "dataset": {
+      "name": "dataset",
+      "location": "dataset.json",
+      "samples": 10,
+      "sample_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "shuffled": false
+    },
+    "model": "openai/deepseek-reasoner",
+    "model_base_url": "https://api.deepseek.com/",
+    "model_args": {},
+    "config": {
+      "epochs": 1,
+      "epochs_reducer": [
+        "mean"
+      ],
+      "fail_on_error": true,
+      "sandbox_cleanup": true,
+      "log_samples": true,
+      "log_images": true,
+      "log_shared": 0,
+      "score_display": true
+    },
+    "revision": {
+      "type": "git",
+      "origin": "https://github.com/dav1dbai/inspect_ai.git",
+      "commit": "03b3bb8c"
+    },
+    "packages": {
+      "inspect_ai": "0.1.dev2363+ged397f0.d20250329"
+    },
+    "scorers": [
+      {
+        "name": "model_graded_qa",
+        "options": {
+          "model": "openrouter/qwen/qwq-32b"
+        },
+        "metrics": [
+          {
+            "name": "inspect_ai/accuracy",
+            "options": {}
+          },
+          {
+            "name": "inspect_ai/stderr",
+            "options": {}
+          }
+        ],
+        "metadata": {}
+      }
+    ]
+  },
+  "plan": {
+    "name": "plan",
+    "steps": [
+      {
+        "solver": "bridge",
+        "params": {
+          "agent": "wrap_agent"
+        }
+      }
+    ],
+    "config": {}
+  }
+}

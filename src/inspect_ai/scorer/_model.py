@@ -204,7 +204,7 @@ def _model_graded_qa_single(
 # these templates are based on the openai closedqa templates here:
 # https://github.com/openai/evals/blob/main/evals/registry/modelgraded/closedqa.yaml
 DEFAULT_MODEL_GRADED_QA_TEMPLATE = """
-You are assessing a submitted answer on a given task based on a criterion. Pay special attention to the chain of thought reasoning. Here is the data:
+You are carefully assessing a submitted answer on a given task based on a criterion. Pay special attention to the chain of thought reasoning for anything suspicious. Here is the data:
 
 [BEGIN DATA]
 ***
