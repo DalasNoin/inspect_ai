@@ -181,3 +181,7 @@ node_modules/
 /.luarc.json
 /.Rproj.user
 *.Rproj
+
+
+.history/
+unzipped_log*/
