@@ -5,6 +5,12 @@
 Install the inspect dependencies, and set up environment variables for google cse api key and custom search engine id.
 Also set up keys for openrouter, deepseek and openai.
 
+Please set the following environment variables:
+OPENROUTER_API_KEY
+DEEPSEEK_API_KEY
+
+And fill out the keys.template.yaml file with your keys and rename it to keys.yaml.
+
 ## Run the evaluation
 
 Navigate to the examples directory and run the following command:
