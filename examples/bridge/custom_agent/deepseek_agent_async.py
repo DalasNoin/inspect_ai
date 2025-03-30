@@ -32,6 +32,7 @@ class AsyncDeepSeekAgent(Agent):
         self.filepath = "agents/dataset/conversations/tool_conversations_deepseek.json"
         self.system_message = system_message
         self.initial_conversation = initial_conversation
+        self.initial_conversation_messages = None
 
     def _get_initial_msg(self, task: str) -> List[Dict[str, str]]:
         tool_template = """Available Tools
@@ -50,35 +51,38 @@ You should only use 1 tool at a time. Here is a list of tools that you have avai
         tool_template = tool_template.format(tool_descriptions=tool_descriptions)
 
         with open(self.initial_conversation, "r") as file:
-            initial_conversation = json.load(file)
+            initial_conversation_messages = json.load(file)
 
         # check if first message is systemmessage
-        if initial_conversation[0]["role"] != "system":
+        if initial_conversation_messages[0]["role"] != "system":
             sysmsg = {"role": "system", "content": self.system_message}
-            initial_conversation.insert(0, sysmsg)
+            initial_conversation_messages.insert(0, sysmsg)
 
         # This is a bit confusing and perhabs not so well designed. the task is added to the last message, but the tool_template is added to the first message and the last message if there is {tool_template} still present.
         # This is done since some tempaltes show a full execution first, and then the task is added.
         # check if first message is user message
-        if initial_conversation[1]["role"] != "user":
+        if initial_conversation_messages[1]["role"] != "user":
             raise ValueError("First message is not a user message")
 
-        first_msg = initial_conversation[1]["content"]
+        first_msg = initial_conversation_messages[1]["content"]
+        # we are filling in the first and last messge, this is a bit messy, but simply based on the idea that we first show a task and then at then end let the model do its own task.
         if "{task}" in first_msg and "{tool_template}" in first_msg:
             first_msg = first_msg.format(task=task, tool_template=tool_template)
         elif "{tool_template}" in first_msg:
             first_msg = first_msg.format(tool_template=tool_template)
 
-        initial_conversation[1]["content"] = first_msg
-        last_msg = initial_conversation[-1]["content"]
+        initial_conversation_messages[1]["content"] = first_msg
+        last_msg = initial_conversation_messages[-1]["content"]
         # check if tool_template is still present in the last message
         if "{tool_template}" in last_msg and "{task}" in last_msg:
             last_msg = last_msg.format(task=task, tool_template=tool_template)
         elif "{task}" in last_msg:
             last_msg = last_msg.format(task=task)
 
-        initial_conversation[-1]["content"] = last_msg
-        return initial_conversation
+        initial_conversation_messages[-1]["content"] = last_msg
+        # later we use this to discard parts of the conversation that are part of the initial message
+        self.initial_conversation_messages = initial_conversation_messages.copy()
+        return initial_conversation_messages
 
     async def __call__(
         self,
@@ -228,7 +232,16 @@ Tool:
             )  # Use self.rate for consistency
         self.finalisation()
 
-        return final_response, conversation
+        # hide parts of the conversation that are part of the initial message, except for the system prompt and the last message
+        shortened_conversation = []
+        length_initial_conversation = len(self.initial_conversation_messages)
+        for i, message in enumerate(conversation):
+            if i == 0 and message["role"] == "system":
+                shortened_conversation.append(message)
+            if i >= length_initial_conversation - 1:
+                shortened_conversation.append(message)
+
+        return final_response, shortened_conversation
 
     async def _call_llm_async(self, messages: List[Dict[str, str]]) -> str:
         """Call the DeepSeek API asynchronously with the given messages."""

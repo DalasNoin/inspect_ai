@@ -3,7 +3,7 @@ import argparse
 from task_async import web_research_agent_async
 
 async def test_async_agent(use_jailbreak: bool = False):
-    agent = web_research_agent_async(use_jailbreak_prompt=use_jailbreak)
+    agent = web_research_agent_async(use_jailbreak_prompt=use_jailbreak, initial_msg_path="bridge/custom_agent/initial_msg_jailbreak.json")
     
     # Create a sample input similar to what the bridge would provide
     test_input = {
@@ -16,6 +16,7 @@ async def test_async_agent(use_jailbreak: bool = False):
         # Add timing to measure performance
         start_time = asyncio.get_event_loop().time()
         result = await agent(test_input)
+        breakpoint()
         elapsed = asyncio.get_event_loop().time() - start_time
         print(f"Result (completed in {elapsed:.2f} seconds):", result)
     except Exception as e:
