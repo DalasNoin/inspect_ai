@@ -7,14 +7,14 @@ from deepseek_agent_async import AsyncDeepSeekAgent
 from typing import Any, Optional
 
 
-def web_research_agent_async(use_jailbreak_prompt: bool = True) -> Solver:
+def web_research_agent_async(use_jailbreak_prompt: bool = True, initial_msg_path: Optional[str] = None) -> Solver:
     output_cot = True
     tools = [
         "internet_search",
         "browser",
     ]
     if use_jailbreak_prompt:
-        initial_conversation = "bridge/custom_agent/initial_msg_inverse.json"
+        initial_conversation = initial_msg_path
         agent = AsyncDeepSeekAgent(
             tools=tools, initial_conversation=initial_conversation
         )
@@ -63,13 +63,17 @@ def web_research_agent_async(use_jailbreak_prompt: bool = True) -> Solver:
 
 
 @task
-def research_async(scoring_model: Optional[str] = None) -> Task:
+def research_async(scoring_model: Optional[str] = None, initial_msg_path: Optional[str] = None, use_jailbreak_prompt: bool = True) -> Task:
     if scoring_model is None:
         scoring_model = "openai/gpt-4o-mini"
 
+    
+    if initial_msg_path is None:
+        initial_msg_path = "bridge/custom_agent/initial_msg_inverse.json"
+
     return Task(
         dataset=json_dataset("dataset.json"),
-        solver=bridge(web_research_agent_async()),
+        solver=bridge(web_research_agent_async(use_jailbreak_prompt=use_jailbreak_prompt, initial_msg_path=initial_msg_path)),
         # scorer=model_graded_qa(instructions=GRADING_PROMPT, model="openai/gpt-4o-mini"),
         scorer=model_graded_qa(model=scoring_model),
     )
