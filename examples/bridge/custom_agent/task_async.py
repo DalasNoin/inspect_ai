@@ -4,7 +4,7 @@ from inspect_ai.scorer import model_graded_fact, model_graded_qa
 from inspect_ai.solver import bridge
 from inspect_ai.solver import Solver
 from deepseek_agent_async import AsyncDeepSeekAgent
-from typing import Any
+from typing import Any, Optional
 
 
 def web_research_agent_async(use_jailbreak_prompt: bool = True) -> Solver:
@@ -63,10 +63,13 @@ def web_research_agent_async(use_jailbreak_prompt: bool = True) -> Solver:
 
 
 @task
-def research_async() -> Task:
+def research_async(scoring_model: Optional[str] = None) -> Task:
+    if scoring_model is None:
+        scoring_model = "openai/gpt-4o-mini"
+
     return Task(
         dataset=json_dataset("dataset.json"),
         solver=bridge(web_research_agent_async()),
         # scorer=model_graded_qa(instructions=GRADING_PROMPT, model="openai/gpt-4o-mini"),
-        scorer=model_graded_qa(model="openai/gpt-4o-mini"),
+        scorer=model_graded_qa(model=scoring_model),
     )
