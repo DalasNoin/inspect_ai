@@ -1,6 +1,6 @@
-ls[<img width="295" src="https://inspect.aisi.org.uk/images/aisi-logo.svg" />](https://aisi.gov.uk/)
+[<img width="295" src="https://inspect.aisi.org.uk/images/aisi-logo.svg" />](https://aisi.gov.uk/)
 
-AI Control Hackathon 2025: You can find instructions on reproduction and our code contributions [here](examples/bridge/custom_agent/README.md)
+ # AI Control Hackathon 2025: You can find instructions on reproduction and our code contributions [here](examples/bridge/custom_agent/README.md)
 
 Welcome to Inspect, a framework for large language model evaluations created by the [UK AI Security Institute](https://aisi.gov.uk/).
 
