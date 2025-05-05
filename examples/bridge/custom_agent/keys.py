@@ -56,4 +56,13 @@ def load_deepseek_api_key() -> str:
     return api_key
 
 
+def load_openrouter_api_key() -> str:
+    """Loads OpenRouter API Key from the loaded YAML config."""
+    # Use .get() with default None for safer access
+    api_key = _config.get("OPENROUTER_API_KEY")  # Match the exact key name in your YAML
+    if not api_key or api_key == "YOUR_OPENROUTER_API_KEY_HERE":
+        raise ValueError(f"OPENROUTER_API_KEY not found or not set in {KEYS_FILE_PATH}")
+    return api_key
+
+
 # Add other key-loading functions as needed, following the pattern above

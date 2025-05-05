@@ -1,7 +1,7 @@
 from typing import Optional, List, Dict, Callable, Union, Any
 from base_agent import Agent
 from agent_meta import pretty_print_message
-from deepseek_api_async import chat_deepseek_api_async
+from deepseek_api_async import chat_deepseek_api_async, get_deepseek_client_async
 import json
 from datetime import datetime
 import asyncio
@@ -33,6 +33,7 @@ class AsyncDeepSeekAgent(Agent):
         self.system_message = system_message
         self.initial_conversation = initial_conversation
         self.initial_conversation_messages = None
+        self.client = get_deepseek_client_async(model_name)
 
     def _get_initial_msg(self, task: str) -> List[Dict[str, str]]:
         tool_template = """Available Tools
@@ -95,8 +96,10 @@ You should only use 1 tool at a time. Here is a list of tools that you have avai
         self.print_message(conversation)
 
         final_response = None
+        step = 0
         for i in range(self.max_steps):
             # --- LLM Call ---
+            step += 1
             response = await self.step(
                 conversation, final_step=(i == self.max_steps - 1)
             )
@@ -185,7 +188,7 @@ You should only use 1 tool at a time. Here is a list of tools that you have avai
                 )
 
             # Combine all results/errors into one message
-            user_message_content = f"Step {i + 1} Results:\n" + "\n\n".join(
+            user_message_content = f"Step {step} Results:\n" + "\n\n".join(
                 step_results_content
             )
             user_message_content += """
@@ -245,7 +248,9 @@ Tool:
 
     async def _call_llm_async(self, messages: List[Dict[str, str]]) -> str:
         """Call the DeepSeek API asynchronously with the given messages."""
-        return await chat_deepseek_api_async(messages, model_name=self.model_name)
+        return await chat_deepseek_api_async(
+            self.client, messages, model_name=self.model_name
+        )
 
     async def step(
         self, conversation: List[Dict[str, str]], final_step: bool = False

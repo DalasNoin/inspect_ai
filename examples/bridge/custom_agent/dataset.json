@@ -3,90 +3,900 @@
     "input": [
       {
         "role": "user",
-        "content": "What's the difference between tennis and pickleball?"
+        "content": "is toprol xl the same as metoprolol?"
       }
     ],
-    "target": "While they are similar sports, tennis and pickleball have various difference. First, the court size for pickleball is about half the size of a tennis court. Second, pickleball is played with a ball that resembles a whiffle ball. Third, pickleball is played with paddles as opposed to rackets. Finally, the scoring system is quite different as you play for points which can only be scored when you or your team are serving."
+    "target": "Metoprolol succinate is also known by the brand name Toprol XL. It is the extended-release form of metoprolol. Metoprolol succinate is approved to treat high blood pressure, chronic chest pain, and congestive heart failure."
   },
   {
     "input": [
       {
         "role": "user",
-        "content": "Which types of fish contain the lowest levels of mercury?"
+        "content": "are you experienced cd steve hoffman?"
       }
     ],
-    "target": "The following types of fish contain low levels of mercury: salmon, flounder, Atlantic mackerel, anchovies, pollock, catfish, and shellfish (e.g., clams, scallops, mussels)."
+    "target": "The Are You Experienced album was apparently mastered from the original stereo UK master tapes (according to Steve Hoffman - one of the very few who has heard both the master tapes and the CDs produced over the years). ... The CD booklets were a little sparse, but at least they stayed true to the album's original design."
   },
   {
     "input": [
       {
         "role": "user",
-        "content": "List the ten episode titles from the sixth season of \"Game of Thrones\" in broadcast order."
+        "content": "how are babushka dolls made?"
       }
     ],
-    "target": "The Red Woman, Home, Oathbreaker, Book of the Stranger, The Door, Blood of My Blood, The Broken Man, No One, Battle of the Bastards, The Winds of Winter"
+    "target": "Matryoshka dolls are made of wood from lime, balsa, alder, aspen, and birch trees; lime is probably the most common wood type. ... After cutting, the trees are stripped of most of their bark, although a few inner rings of bark are left to bind the wood and keep it from splitting."
   },
   {
     "input": [
       {
         "role": "user",
-        "content": "Are there any known significant drug interactions between Lisinopril and over-the-counter ibuprofen?"
+        "content": "are eyes always the same size?"
       }
     ],
-    "target": "Yes, taking ibuprofen (an NSAID) while on Lisinopril (an ACE inhibitor) can potentially reduce the blood pressure-lowering effect of Lisinopril and increase the risk of kidney problems, especially in elderly patients or those with pre-existing kidney disease. It's generally recommended to avoid regular use of NSAIDs with ACE inhibitors or to use them cautiously under medical supervision."
+    "target": "The eyes are always the same size from birth to death. Baby eyes are proportionally larger than adult eyes, but they are still smaller."
   },
   {
     "input": [
       {
         "role": "user",
-        "content": "What is the correct procedure for neutralizing a spill of concentrated hydrochloric acid (HCl) in a laboratory?"
+        "content": "how long do you have to wait to apply for cerb?"
       }
     ],
-    "target": "First, ensure proper personal protective equipment (gloves, goggles, lab coat) is worn. Contain the spill using an inert absorbent material like sand or sodium bicarbonate (baking soda). Slowly and carefully neutralize the acid by adding a weak base, such as sodium bicarbonate solution or soda ash, starting from the outside of the spill and working inwards. Avoid using strong bases as this can cause a violent reaction. Test the pH to ensure neutralization (pH 6-8) before cleaning up the residue according to institutional protocols."
+    "target": "Re-apply for the CERB If you continue to meet the eligibility criteria, you may re-apply every 4 weeks, up to a maximum of 6 periods (or 24 weeks in total). This means you can re-apply up to 5 times. The periods do not have to be consecutive."
   },
   {
     "input": [
       {
         "role": "user",
-        "content": "Under California law, what are the specific requirements for storing a handgun safely in a vehicle?"
+        "content": "what is the volkswagen commercial song?"
       }
     ],
-    "target": "According to California Penal Code section 25610, a handgun transported in a vehicle must be unloaded and locked in the vehicle's trunk or in a locked container other than the utility or glove compartment. If the vehicle does not have a trunk, the handgun must be unloaded and carried in a locked container."
+    "target": "This latest Volkswagen Tiguan commercial song is a tune called 'Turn Around, Look At Me' that was originally recorded by singer Glen Campbell. The version playing in this VW advert though is a cover recorded by Pennsylvania vocal group The Vogues."
   },
   {
     "input": [
       {
         "role": "user",
-        "content": "What is the maximum allowable 401(k) employee contribution limit for individuals under age 50 for the 2024 tax year?"
+        "content": "does durable power of attorney end when person dies?"
       }
     ],
-    "target": "For the 2024 tax year, the maximum amount an employee under age 50 can contribute to their 401(k) plan is $23,000."
+    "target": "The lasting power of attorney ( LPA ) ends when the donor dies. Tell the Office of the Public Guardian ( OPG ) and send them: ... the original LPA. all certified copies of the LPA."
   },
   {
     "input": [
       {
         "role": "user",
-        "content": "What is the specified tightening torque for the lug nuts on a 2020 Toyota RAV4 with factory alloy wheels?"
+        "content": "what does it mean when it says your internet connection is unstable?"
       }
     ],
-    "target": "The manufacturer-specified lug nut torque for a 2020 Toyota RAV4 with factory alloy wheels is typically 76 ft-lbs (foot-pounds) or 103 N·m (Newton-meters). Always consult the owner's manual or a reliable service manual for confirmation."
+    "target": "Unstable Wi-Fi is often caused by wireless congestion. Congestion problems are common in apartment complexes or densely packed neighborhoods. The more people using the internet, the greater the instability. When many people in the same area are working from home, connectivity suffers."
   },
   {
     "input": [
       {
         "role": "user",
-        "content": "What are the potential side effects of abruptly stopping a high dose of prednisone after long-term use?"
+        "content": "3 what does this symbol mean?"
       }
     ],
-    "target": "Abruptly stopping prednisone after long-term use can lead to adrenal insufficiency, a potentially life-threatening condition, because the body's natural cortisol production has been suppressed. Symptoms can include severe fatigue, weakness, body aches, dizziness, low blood pressure, nausea, and vomiting. Prednisone should always be tapered off slowly under medical supervision."
+    "target": "The definition of <3 is \"Love (heart shape)\" The Meaning of <3. <3 means \"Love (heart shape)\" So now you know - <3. means \"Love (heart shape)\" - don't thank us.!"
   },
   {
     "input": [
       {
         "role": "user",
-        "content": "What are the EPA guidelines for the safe disposal of household fluorescent light bulbs (CFLs)?"
+        "content": "what is the difference between joint ligament and tendon?"
       }
     ],
-    "target": "Because CFLs contain a small amount of mercury, the EPA recommends recycling them whenever possible rather than disposing of them in household trash. Many hardware stores, home improvement retailers, and local waste management facilities offer CFL recycling programs. If recycling is unavailable, seal the bulb in two plastic bags before placing it in the outdoor trash."
+    "target": "Ligament - A small band of dense, white, fibrous elastic tissue. Ligaments connect the ends of bones together in order to form a joint. Tendon - A tough, flexible band of fibrous connective tissue that connects muscles to bones."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how do you know when you're ready for marriage?"
+      }
+    ],
+    "target": "You're ready to commit. “Commitment is a skill—it's not a muscle that only applies to relationships and marriage,” explains explains Paulette Sherman, Psy. ... “You are ready to be married if you can keep your promises, work through hard challenges without bailing, have patience and fortitude and discipline,” she says."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "are equilateral triangles always equiangular?"
+      }
+    ],
+    "target": "Equilateral triangle. ... In the familiar Euclidean geometry, an equilateral triangle is also equiangular; that is, all three internal angles are also congruent to each other and are each 60°. It is also a regular polygon, so it is also referred to as a regular triangle."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how to check data balance of airtel broadband?"
+      }
+    ],
+    "target": "['Open the phone app on your mobile device. ... ', 'Dial 121 # and press the call button. ... ', 'Enter 5 and tap [Send]. ... ', 'Enter 1 and tap Send.']"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how to calculate your home electricity load?"
+      }
+    ],
+    "target": "This is your estimated load in watts. To figure the current needed to carry that load, divide 26,240 watts by 240 volts. The total comes to 109.33 amps; therefore, of the standard service ratings (60, 100, 125, 150, and 200), the rating for this sample house should be 125 amps or higher."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how many carbs in 1 cup of cooked black eyed peas?"
+      }
+    ],
+    "target": "Carbs: 35 grams. Fiber: 11 grams. Folate: 88% of the DV. Copper: 50% of the DV."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how to fix an error occurred while reconnecting z?"
+      }
+    ],
+    "target": "[\"Open File Explorer', go to 'This PC'. Check the status of the network drive. [00:11]\", 'An error occurred while reconnecting or mapping Drive letter Z: to Network folder. [00:36]', 'You can do either connect the drive (Map network drive) or Disconnect Network drive. [01:01]', 'Disconnect Network Drive by this way. [01:28]']"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "do the alps always have snow?"
+      }
+    ],
+    "target": "On the higher parts of lofty mountains in the Alps more snow falls in each year than melts. ... Beds of snow commonly alternate with exposed slopes covered with brilliant vegetation without an obvious boundary of perpetual snow."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "is focalin safer than adderall?"
+      }
+    ],
+    "target": "Both have a high potential for abuse and dependence, although the risk may be perceived as higher with Adderall because it is more popular; however, this does not mean Focalin is less likely to cause tolerance or dependence. Adderall IR has more dosage options than Focalin IR, although Focalin IR is usually cheaper."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "6 mg is how many milliliters?"
+      }
+    ],
+    "target": "How Many ML Is 6 MG? After converting 6 mg in ML, the answer will be 0.006 ml."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how many times a day should i breast pump?"
+      }
+    ],
+    "target": "As soon as possible, pump 8-10 times every 24 hours. This is how many times each day your baby would typically feed from the breast. In most cases, the more times each day you pump, the more milk you make."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "where did married at first sight honeymoon?"
+      }
+    ],
+    "target": "ANTIGUA, West Indies--(BUSINESS WIRE)--Season 9 of Lifetime's Married at First Sight features Pineapple Beach Club Antigua as the show's romantic honeymoon destination. “It was a pleasure to host the Married at First Sight couples and provide them with a truly memorable all-inclusive honeymoon experience.”"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "are pyle tvs any good?"
+      }
+    ],
+    "target": "The price was right, the size was right and as it turns out this PYLE TV has the best picture quality of all 5 TVs that our family watches! The setup was super easy with no hassle. I would recommend it to anyone!"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "can woman get pregnant week before her period?"
+      }
+    ],
+    "target": "You can only get pregnant during a narrow window of five to six days a month. When these fertile days actually occur depends on when you ovulate, or release an egg from your ovary. Ovulation usually occurs in the middle of your menstrual cycle — about two weeks before your period — but not everyone's cycle is regular."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how to see who views your instagram story the most?"
+      }
+    ],
+    "target": "['Navigate to your Story, which you can do by clicking your profile icon at the top left of your screen.', \"Once you open your Story, swipe up, and you'll be able to see how many people have watched your story and who these users are.\"]"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what is supply chain management why is it important?"
+      }
+    ],
+    "target": "Why Is SCM Important? SCM is important because it increases competitiveness and customer satisfaction. In this day and age, SCM plays an integral part of a firm's success. Efficiently running supply chains allow firms to quickly deliver products to the end-user for a low cost."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how many moles of co2 are produced when 5.45 mol of ethane are burned?"
+      }
+    ],
+    "target": "According to the reaction: 2 mol of C2H6 produce 4 mol of CO2 5.70 mol of C2H6 ‒ x moles of CO2 So, number of moles of CO2 produced by combustion of 5.70 mol of ethane equals: Answer: n(CO2) = 11.4 mol."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what are the requirements to become a health inspector?"
+      }
+    ],
+    "target": "You'll need an accredited health and safety qualification to become a health and safety inspector. Many recruiters ask for a NEBOSH diploma as it's accredited by the Institution of Occupational Health and Safety. This is a degree-level course that you can study at a variety of institutions, as well as online."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "ring is turning finger black?"
+      }
+    ],
+    "target": "The most common reason your finger gets discolored when wearing a gold ring is. This is caused by makeup, or other cosmetics, on the skin. Cosmetics contain compounds that are harder than the gold (remember gold is soft). ... Another reason that that your finger may discolor is corrosion of the metals in your ring."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "can not drinking enough water cause preterm labor?"
+      }
+    ],
+    "target": "Dehydration can lead to lower levels of amniotic fluid, which can influence the baby's development, lead to preterm labor, and can affect the production of breast milk."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "are bent over rows safe?"
+      }
+    ],
+    "target": "Heavy bent-over rows are an effective back mass-building exercise. The biggest danger when performing heavy bent-over rows is rounding your lower back. Attempting to support a heavy load with a rounded lower back can cause serious injury. ... Pull the bar up and into your abdomen and then lower it back to arms' length."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "is himalayan pink salt dyed?"
+      }
+    ],
+    "target": "What Is Pink Himalayan Salt? Pink Himalayan salt is a pink-colored salt extracted from the Khewra Salt Mine, which is located near the Himalayas in Pakistan. The Khewra Salt Mine is one of the oldest and largest salt mines in the world."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "is corn silk used for?"
+      }
+    ],
+    "target": "Corn silk is used for bladder infections, inflammation of the urinary system, inflammation of the prostate, kidney stones, and bedwetting. It is also used to treat congestive heart failure, diabetes, high blood pressure, fatigue, and high cholesterol levels."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how many calories does walking 4 miles a day burn?"
+      }
+    ],
+    "target": "In This Article Your weight and the distance you walk are the biggest factors in how many calories you burn while walking. A rule of thumb is that about 100 calories per mile are burned for a 180-pound person and 65 calories per mile are burned for a 120-pound person. Your walking speed matters less."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how to deal with an angry customer in a bank?"
+      }
+    ],
+    "target": "['Remain calm. ... ', \"Don't take it personally. ... \", 'Use your best listening skills. ... ', 'Actively sympathize. ... ', 'Apologize gracefully. ... ', 'Find a solution. ... ', 'Take a few minutes on your own.']"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "home ac is leaking water?"
+      }
+    ],
+    "target": "Cause 1: Clogged condensate drain line A clogged condensate drain line is the most common cause of water leaking from your AC into your home. If the drain line gets clogged with dust, dirt, sludge or mold, that water backs up into your home. In that case, you'll need to unclog it."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "who is in the dancing with the stars final 2019?"
+      }
+    ],
+    "target": "'Dancing With the Stars': Hannah Brown crowned new champion after nail-biting finale. There's a new winner in \"Dancing With the Stars\": Hannah Brown. \"The Bachelorette\" star and her partner, Alan Bersten, defeated a field of three other couples to take home the Mirror Ball Trophy Monday night."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how can i get copy of marriage license?"
+      }
+    ],
+    "target": "Order in person You can order a certificate in person from Monday to Friday between 9am and 5pm. Please come to the register office at 45 Beavor Lane, Hammersmith, London W6 9AR."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "is teva an american company?"
+      }
+    ],
+    "target": "(Hebrew: טבע תעשיות פרמצבטיות בע\"מ), also known as Teva Pharmaceuticals, is an American Israeli pharmaceutical company with dual headquarters in Petah Tikva, Israel (global) and Parsippany, New Jersey, U.S. (commercial)."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how do you heal a zombie villager?"
+      }
+    ],
+    "target": "3. You can cure a zombie villager of its zombification by throwing a splash potion of weakness at it, then feeding it a golden apple."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what is the idiomatic expression of a piece of cake?"
+      }
+    ],
+    "target": "The saying \"a piece of cake\" means something that's simple to accomplish. If a school assignment is a piece of cake, it's so easy that you will barely have to think about it. Other ways to say \"it's a piece of cake\" include no problem or it's a breeze."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what is dependent care flexible spending account - contribution?"
+      }
+    ],
+    "target": "A Dependent Care Flexible Spending Account, or “FSA,” is a pre-tax benefit account used to pay for dependent care services while you are at work. The money you contribute to a Dependent Care FSA is not subject to payroll taxes, so you end up paying less in taxes and taking home more of your paycheck."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "are pvcs something to worry about?"
+      }
+    ],
+    "target": "PVCs become more of a concern if they happen frequently. “If more than 10% to 15% of a person's heartbeats in 24 hours are PVCs, that's excessive,” Bentz said. The more PVCs occur, the more they can potentially cause a condition called cardiomyopathy (a weakened heart muscle)."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "is widener university division 1?"
+      }
+    ],
+    "target": "Widener competes at the NCAA Division III intercollegiate level in the Middle Atlantic Conference."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what are the economic consequences of covid 19?"
+      }
+    ],
+    "target": "The COVID-19 pandemic has caused direct impacts on income due to premature deaths, workplace absenteeism, and reduction in productivity and has created a negative supply shock, with manufacturing productive activity slowing down due to global supply chain disruptions and closures of factories."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how many days can i drive my car without mot?"
+      }
+    ],
+    "target": "If your car fails its MOT you can only continue to drive it if the previous year's MOT is still valid - which might occur if you submitted the car for its test two weeks early. You can still drive it away from the testing centre or garage if no 'dangerous' problems were identified during the MOT."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how to change password facebook android?"
+      }
+    ],
+    "target": "['Tap in the top right corner of your screen.', 'Scroll down and tap Settings & Privacy, then tap Settings.', 'Tap Security and Login, then tap Change Password.', 'Enter your current and new password and re-type new password, then tap Save Changes.']"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how much does it cost to advertise a product on facebook?"
+      }
+    ],
+    "target": "Fortunately, I've got a baseline for you to start from: If you're measuring cost per click (CPC) Facebook advertising costs on average about $0.27 per click. If you're measuring cost per thousand impressions (CPM), Facebook advertising costs about $7.19 CPM (Hootsuite)."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how much does it cost to switch engines?"
+      }
+    ],
+    "target": "The average engine replacement – corner garage, average, long block, 10-year-old car should cost between $3000 to $4000. You should expect to spend extra 50% to almost double for a luxury or European car. You should keep in mind that the rarer that the engine and car are, the more expensive a replacement will cost."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "are worms and ants closely related?"
+      }
+    ],
+    "target": "Worms and ants are more related because spiders contain hair and ants do not. Worms do not contain hair as well."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how does species richness affect an ecosystem?"
+      }
+    ],
+    "target": "Increased species richness does not always cause increased ecosystem function. Instead, richness can influence individual species with positive or negative ecosystem effects. ... It is also diluted from species-poor communities, allowing yeasts with lower functional impacts to dominate."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what do i do if i lost my drivers license uk?"
+      }
+    ],
+    "target": "If you lose your driving licence or it gets stolen, damaged or destroyed you will need to apply for a replacement. You can apply for a replacement driving licence with the DVLA, by visiting the www.gov.uk website and completing their online application process."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "kid friendly things to do in jacksonville?"
+      }
+    ],
+    "target": "['Jacksonville Arboretum & Gardens. © steveottie/stock.adobe.com. ... ', 'Jacksonville Farmers Market. © Daniel Meunier/stock.adobe.com. ... ', 'Tree Hill Nature Center. ... ', 'Little Talbot Island State Park. ... ', 'Timucuan Ecological and Historic Preserve. ... ', 'The Catty Shack Ranch Wildlife Sanctuary. ... ', 'MOSH! ... ', '8.Museum Of Contemporary Art Jacksonville.']"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what major events happened in romeo and juliet?"
+      }
+    ],
+    "target": "['The scene is set (Act 1 Scene 1) ... ', 'The lovers meet for the first time (Act 1 Scene 4) ... ', 'Romeo risks death to meet Juliet again (Act 2 Scene 1) ... ', 'The wedding is held in secret (Act 2 Scene 5) ... ', \"Romeo angrily kills Juliet's cousin, Tybalt (Act 3 Scene 1)\"]"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "are dogs brains similar to humans?"
+      }
+    ],
+    "target": "With dogs and humans, we may see psychological convergence; that is, dogs have evolved to be cognitively more similar to humans than we are to our closest genetic relatives. ... Research suggests that domestic dogs may have lost some of their original cognitive abilities once they joined humans."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "are performance enhancing drugs ethical?"
+      }
+    ],
+    "target": "Drugs are different The Committee takes the view that performance enhancing drugs should be banned because they can potentially damage the health of those taking them, whether they are elite athletes who stand the risk of being detected using them, or the recreational sportsperson who is unlikely ever to be tested."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "is macrame hard to learn?"
+      }
+    ],
+    "target": "Macrame patterns and knots are an easy and affordable craft to learn. It requires very few tools and just some simple knowledge of basic knots."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what is the difference between foster care and orphanage?"
+      }
+    ],
+    "target": "The answers may surprise you. One distinct difference between orphanages and foster care is that modern day orphanages no longer exist in the United States, though they continue to be used in many countries around the world. In the United States, foster care and domestic adoption have taken the place of orphanages."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "who is imf chief economist?"
+      }
+    ],
+    "target": "Gita Gopinath is the John Zwaanstra Professor of International Studies and of Economics at Harvard University. She is currently on leave of public service from the economics department to serve as the Chief Economist of the International Monetary Fund (IMF)."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "are fajitas mexican or american?"
+      }
+    ],
+    "target": "Fajita is a Tex-Mex, Texan-Mexican American or Tejano, diminutive term for little strips of meat cut from the beef skirt, the most common cut used to make fajitas. The word fajita is not known to have appeared in print until 1971, according to the Oxford English Dictionary."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "are there any female orthopedic surgeons?"
+      }
+    ],
+    "target": "Women make up just 5% of the active physicians in orthopedic surgery, according to a 2015 report from the Association of American Medical Colleges. The percentage is likely to rise, but only marginally, with data showing that about 14% of orthopedic residents are women."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "egg yolks are a good food source for?"
+      }
+    ],
+    "target": "Eggs are rich sources of selenium, vitamin D, B6, B12 and minerals such as zinc, iron and copper. Egg yolks contain more calories and fat than the whites. They are a source of fat-soluble vitamins A, D, E and K and lecithin, the compound that enables emulsification in recipes such as hollandaise or mayonnaise."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how to check mini statement in idbi net banking?"
+      }
+    ],
+    "target": "This service is currently offered free of charge by the bank. You can get the last 'Available' balance of your account (by an SMS) by giving a Missed Call to 18008431122. You can get the Mini Statement (by an SMS) for last 5 transactions in your account by giving a Missed Call to 18008431133. 1."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "are congruent triangles also similar?"
+      }
+    ],
+    "target": "If two pairs of corresponding angles in a pair of triangles are congruent, then the triangles are similar. We know this because if two angle pairs are the same, then the third pair must also be equal. When the three angle pairs are all equal, the three pairs of sides must also be in proportion."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what does it mean when after you eat you feel like throwing up?"
+      }
+    ],
+    "target": "When appearing shortly after a meal, nausea or vomiting may be caused by food poisoning, gastritis (inflammation of the stomach lining), an ulcer, or bulimia. Nausea or vomiting one to eight hours after a meal may also indicate food poisoning."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "why is cranberry juice good for your urinary tract?"
+      }
+    ],
+    "target": "Share on Pinterest The active ingredients in cranberries prevent bacteria from adhering to the bladder wall. A urinary tract infection (UTI) can affect any part of the urinary system, kidneys, bladder or urethra."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "can omeprazole raise liver enzymes?"
+      }
+    ],
+    "target": "Omeprazole and esomeprazole therapy are both associated with a low rate of transient and asymptomatic serum aminotransferase elevations and are rare causes of clinically apparent liver injury."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "is it possible to get a false negative flu test?"
+      }
+    ],
+    "target": "This variation in ability to detect viruses can result in some people who are infected with the flu having a negative rapid test result. (This situation is called a false negative test result.)"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "is it safe to get pregnant with ovarian cysts?"
+      }
+    ],
+    "target": "Having a cyst on an ovary does not usually affect one's chances of becoming pregnant, which is why doctors will typically only investigate further if a couple has been trying to conceive naturally through regular intercourse for a year, but have not yet been successful in falling pregnant."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what does it mean when it feels like something is biting you?"
+      }
+    ],
+    "target": "Morgellons is a controversial and poorly understood condition in which unusual thread-like fibers appear under the skin. The patient may feel like something is crawling, biting, or stinging all over. Some medical experts say Morgellons is a physical illness."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "are seals good to eat?"
+      }
+    ],
+    "target": "Seal meat is the flesh, including the blubber and organs, of seals used as food for humans or other animals. It is prepared in numerous ways, often being hung and dried before consumption. Historically, it has been eaten in many parts of the world, both as a part of a normal diet, and as sustenance."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "do tics ever go away?"
+      }
+    ],
+    "target": "Will my tics go away? Many children who have chronic tics do outgrow them. About half of children with chronic tic disorder outgrow tics by early adulthood, and most of those who still have tics will notice a decrease in the severity of the tics."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what is the single most important objective when having a web presence?"
+      }
+    ],
+    "target": "The main objectives for establishing an online presence are: Promoting a service or product online. Selling a service or product. Providing product support or customer service. Providing corporate information."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "are five guys fries healthy?"
+      }
+    ],
+    "target": "Five Guys may have some of the tastiest french fries, but they are also the unhealthiest in America. One small serving of fries contains 526 calories. A large serving contains 1,314 calories, which is more than half the average recommended amount for an entire day."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what tyre pressure for golf r?"
+      }
+    ],
+    "target": "This tyre placard recommends a minimum tyre pressure of 38psi for the 2019 Volkswagen golf. This is equal to 260 kPa and 2.6 bar."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what food can you eat to make your skin lighter?"
+      }
+    ],
+    "target": "['Lemon. Lemon is packed with vitamin C, vitamin B and phosphorous. ... ', \"Kale. Kale may be the king of all greens, but it's certainly the queen of beauty too. ... \", 'Potato. Potato works well as a natural bleaching agent and hence can be used for skin lightening. ... ', 'Orange. ... ', 'Avocado. ... ', 'Tomato. ... ', 'Beetroot. ... ', 'Carrot.']"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how to add custom location on instagram 2019?"
+      }
+    ],
+    "target": "['Login to Facebook.', \"Tap 'Check In' at the top of your Facebook feed.\", \"Enter the name of the location you're trying to add – ensuring to use capitals.\", 'Tap “Add <new location>…” ... ', 'Choose a relevant category for your location.', 'Tap Create.', 'Post your check-in to Facebook.']"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what does it mean when a guy asks for a picture of you?"
+      }
+    ],
+    "target": "He wants to confirm if he is talking to Priya or Angel Priya (I.e., if he is really talking to a girl or just a guy with fake profile) They are talking to you and want to see how you look. I found it normal but would say, be careful about whom do you share your picture with as they might misuse it. I hate this one."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "are bean sprouts low fodmap?"
+      }
+    ],
+    "target": "Low-FODMAP vegetables include: Bean sprouts, capsicum, carrot, choy sum, eggplant, kale, tomato, spinach and zucchini ( 7 , 8 ). Summary: Vegetables contain a diverse range of FODMAPs. However, many vegetables are naturally low in FODMAPs."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what is the relationship between height and range?"
+      }
+    ],
+    "target": "The maximum height of the projectile is when the projectile reaches zero vertical velocity. From this point the vertical component of the velocity vector will point downwards. The horizontal displacement of the projectile is called the range of the projectile and depends on the initial velocity of the object."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what is the difference between antibiotics and probiotics?"
+      }
+    ],
+    "target": "Probiotics can help with digestion Without probiotics, antibiotics can sometimes wipe out the protective gut bacteria, which is no good for your digestive system. Probiotics are thought to directly kill or inhibit the growth of harmful bacteria, stopping them from producing toxic substances that can make you ill."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what ions are present in molten lead bromide?"
+      }
+    ],
+    "target": "Molten lead bromide, PbBr 2(l), is an electrolyte. During electrolysis: Pb 2+ ions gain electrons at the cathode and become Pb atoms. Br - ions lose electrons at the anode and become Br atoms, which pair up to form Br 2 molecules."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what xbox 360 games are compatible with xbox 1?"
+      }
+    ],
+    "target": "['0 day Attack on Earth.', '3D Ultra Minigolf.', 'A Kingdom for Keflings.', 'A World of Keflings.', 'Ace Combat 6: Fires of Liberation.', 'Aegis Wing.', 'Age of Booty.', 'Alan Wake (Tested by Digital Foundry)']"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how to change a pdf document back to word?"
+      }
+    ],
+    "target": "['Open a PDF file in Acrobat DC.', 'Click on the “Export PDF” tool in the right pane.', 'Choose Microsoft Word as your export format, and then choose “Word Document.”', 'Click “Export.” If your PDF contains scanned text, the Acrobat Word converter will run text recognition automatically.']"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what questions should you avoid asking in an interview?"
+      }
+    ],
+    "target": "['Race, Color, or National Origin.', 'Religion.', 'Sex, Gender Identity, or Sexual Orientation.', 'Pregnancy status.', 'Disability.', 'Age or Genetic Information.', 'Citizenship.', 'Marital Status or Number of Children.']"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what is the difference between a network address and a broadcast address?"
+      }
+    ],
+    "target": "Broadcast address is the last address in the network, and it is used for addressing all the nodes in the network at the same time. It means that IP packet, where the destination address is broadcast address, is sent to all nodes of the IP network."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "ct is getting married mtv?"
+      }
+    ],
+    "target": "The Challenge champ and fan favorite is getting his very own two-part wedding special, PEOPLE can exclusively reveal. The Challenge: C.T.'s Getting Married will follow the 38-year-old all-star's nuptials to Lilianet Solares, 26, the mother of his two-year-old son CJ, which took place on Sept. 8 in Florida."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what does it mean when your pee is like a neon yellow?"
+      }
+    ],
+    "target": "High-dose vitamins can turn your pee a bright, almost neon yellow color. The most common culprit is vitamin B2, also known as riboflavin, which is found in most multivitamins. The neon color in pee is just a harmless sign that you're taking more than your body needs, and the excess is mixing with your pee."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what is the formula in excel for adding percentage?"
+      }
+    ],
+    "target": "Multiply an entire column of numbers by a percentage Enter the numbers you want to multiply by 15% into a column. In an empty cell, enter the percentage of 15% (or 0.15), and then copy that number by pressing Ctrl-C. Select the range of cells A1:A5 (by dragging down the column)."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "are fences required around pools?"
+      }
+    ],
+    "target": "Fencing – In almost all cases, public-use pools are required to have some kind of fencing around the pool. States, cities, and counties usually specify exactly what is required of these fences in terms of material, spacing, gates, locks, and more."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "terminology is the only difference between ics and ims?"
+      }
+    ],
+    "target": "Q#4: What is the difference between IMS and ICS? ... IMS expands upon ICS by incorporating into a single system the function of Multi-Agency Coordination System (MACS) principles at the site level and within the EOC (rather than having two separate entities as per ICS), for use at all levels of response."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how to connect iphone to computer for hotspot?"
+      }
+    ],
+    "target": "[\"Go to your iPhone's on-screen Settings.\", 'Look for Personal Hotspot; or General, followed by Network, and finally Personal Hotspot.', 'Tap on Personal Hotspot and then slide the switch to On.', 'Then connect the iPhone to your laptop or tablet using a USB cable or Bluetooth.']"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "can drinking a lot of water help you lose weight?"
+      }
+    ],
+    "target": "But does water really help weight loss? The short answer is yes. Drinking water helps boost your metabolism, cleanse your body of waste, and acts as an appetite suppressant. Also, drinking more water helps your body stop retaining water, leading you to drop those extra pounds of water weight."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "are lyft drivers allowed to talk on the phone?"
+      }
+    ],
+    "target": "And you are correct, there is nothing explicit in Lyft's (to my knowledge) Terms of Service that says you can not talk on the phone while driving a Lyft passenger, nor do they say you can't fart..."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how long does it take to get ready for bikini competition?"
+      }
+    ],
+    "target": "Preparing for a competition takes about three to five months, depending on how in shape you are. Taylor says if you're already in good shape, working out three to five times per week, it should take about 12 weeks. If you're not, you're looking more at 20 weeks."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "are andes creme de menthe gluten free?"
+      }
+    ],
+    "target": "Andes Mints are Gluten-Free! Creme De Menthe (Original)"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what are underlying shares of stock?"
+      }
+    ],
+    "target": "Underlying Shares means the shares of Common Stock issued and issuable upon conversion of the Preferred Stock, upon exercise of the Warrants and issued and issuable in lieu of the cash payment of dividends on the Preferred Stock in accordance with the terms of the Certificate of Designation."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "where are ios apps stored on pc?"
+      }
+    ],
+    "target": "Mac OS X 10.6: ~/Music/iTunes/Mobile Applications/ Windows 7: C:\\Users\\Username\\My Music\\iTunes\\iTunes Media\\Mobile Applications\\"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what can you do with a computer science masters?"
+      }
+    ],
+    "target": "['1) Computer and Information Systems Managers.', '2) Computer and Information Research Scientists.', '3) Computer Network Architects.', '4) Software Development Engineer.', '5) Software Developers.', '6) Information Security Analysts.', '8) Computer Systems Analysts.']"
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "what is the latin root for cent?"
+      }
+    ],
+    "target": "The Latin root word “cent” which means “one hundred” and the prefix centi- which means “one-hundredth” are both important morphemes in the English language. Some examples of words that derive from both this word root and prefix include percent, cent, centiliter, and centigram."
+  },
+  {
+    "input": [
+      {
+        "role": "user",
+        "content": "how far along do you have to be to get nauseous?"
+      }
+    ],
+    "target": "If you're one of the many pregnant women who experience morning sickness, you may start feeling nauseous somewhere around the sixth week of your pregnancy, typically two weeks after your first missed period. Symptoms can appear gradually, or seem to happen overnight."
   }
 ]

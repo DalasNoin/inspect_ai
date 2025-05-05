@@ -89,7 +89,7 @@ def init_openai_request_patch() -> None:
                 options,
                 stream=stream,
                 stream_cls=stream_cls,
-                remaining_retries=remaining_retries,
+                # remaining_retries=remaining_retries,
             )
 
         setattr(AsyncAPIClient, "request", patched_request)
